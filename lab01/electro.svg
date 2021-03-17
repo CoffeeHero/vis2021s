@@ -45,6 +45,36 @@
 
   <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
   <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
-</svg>
+  <!--hair-->
+  <path d="M 192 10, 165 62, 235 62, 196 128" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  
+  <!--head-->
+  <path d="M 4 124, 386 124, 386 382, 4 382, 4 124" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  
+  <!--eyes & mouth-->
+  <path d="M 0 233, 113 233" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 280 233, 390 233" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 170 325 A 20 25, 0, 1, 0, 215 325" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  
+  <!--body-->
+  <path d="M 145 384, A 156, 156, 0, 0, 0, 128 448" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 242 384, A 156, 156, 0, 0, 1, 259 448" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 160 488, 227 488" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  
+  <!--limbs-->
+  <path d="M 138 405, 94 448 A 16 36, 40, 1, 0, 120 468" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 251 405, 295 448 A 16 36, 140, 1, 1, 269 468" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 128 448 A 16 26, 150, 1, 0, 156 496 A 22 26, 162, 1, 0, 128 448" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 259 448 A 16 26, 20, 1, 1, 234 496 A 22 26, -2, 1, 1, 259 448" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
 
+  <!--tail-->
+  <path d="M 275 425 Q 330 390, 365 420 Q 416 446, 443 390" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 439 357 A 15 22, 25, 1, 0, 470 372z" stroke="#F00" stroke-width="10" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 450 362, 458 345" stroke="#F00" stroke-width="10" stroke-linecap="round" opacity="0.3" fill="none"/>
+  <path d="M 460 367, 468 350" stroke="#F00" stroke-width="10" stroke-linecap="round" opacity="0.3" fill="none"/>
+  
+  <!--tail-lightnings-->
+  <path d="M 434 311, 428 326, 442 326, 437 340" stroke="#F00" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" fill="none"/>
+  <path d="M 508 334, 490 339, 501 348, 487 353" stroke="#F00" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" fill="none"/>
+</svg>
     
