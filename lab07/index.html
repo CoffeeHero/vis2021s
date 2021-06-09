@@ -54,13 +54,13 @@
         <hr>
         <div style="width:256px;display:inline-block" id="name1"></div>
         <div style="width:256px;display:inline-block" id="name2"></div>
-        <div style="width:256px;display:inline-block" id="name3"></div>
+<!--         <div style="width:256px;display:inline-block" id="name3"></div> -->
 
 
 
-        <div style="width:256px;display:inline-block" id="Sun"></div>
-        <div style="width:256px;display:inline-block" id="Sin"></div>
-        <div style="width:256px;display:inline-block" id="Yu"></div>
+        <div style="width:256px;display:inline-block" id="Chen"></div>
+        <div style="width:256px;display:inline-block" id="Shen"></div>
+<!--         <div style="width:256px;display:inline-block" id="Yu"></div> -->
         </br>
         
     </div>
@@ -76,13 +76,13 @@
        
         window.onload = () => {
 
-            loadWordFromPath('./sun.svg', '#name1');
-            loadWordFromPath('./sin.svg', '#name2');
-            loadWordFromPath('./yu.svg', '#name3');
+            loadWordFromPath('./Chen.svg', '#name1');
+            loadWordFromPath('./Shen.svg', '#name2');
+//             loadWordFromPath('./yu.svg', '#name3');
 
-            loadWordFromPath('./sun.svg', '#Sun',0);
-            loadWordFromPath('./sin.svg', '#Sin',0);
-            loadWordFromPath('./yu.svg', '#Yu',0);
+            loadWordFromPath('./Chen.svg', '#Chen',0);
+            loadWordFromPath('./Shen.svg', '#Shen',0);
+//             loadWordFromPath('./yu.svg', '#Yu',0);
 
             document.getElementById('dropfile').addEventListener('dragover', (evt) => {
                 evt.preventDefault()
